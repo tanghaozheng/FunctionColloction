@@ -1,7 +1,7 @@
 package find;
 
 public class BinaryFind {
-	// 二分查找
+	// 二分查找 
 	public static int binaryFind(int[] arr, int num) {
 		int low = 0;
 		int hight = arr.length - 1;
