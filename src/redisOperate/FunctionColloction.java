@@ -67,22 +67,20 @@ public class FunctionColloction {
 				 
 
 
-
-				// 有序集（个人理解，有序集，就是有序的set集合）
-
-				/*
-				 * //向class中添加元素，100用于排序 System.out.println(jedis.zadd("class", 100,
-				 * "老马")); System.out.println(jedis.zadd("class", 100, "老马dd"));
-				 * //若"老马"元素存在，则用88替换以前的数据 jedis.zadd("class", 88, "老马");
-				 * //返回"老马"元素的scope值 System.out.println(jedis.zscore("class","老马"));
-				 * System.out.println(jedis.zadd("class", 12, "老张"));
-				 * //显示class中所有的元素(元素按scope从小到大排列)
-				 * System.out.println(jedis.zrange("class", 0, -1)); //返回class中元素的个数
-				 * System.out.println(jedis.zcard("class")); jedis.zrem("class",
-				 * "老马dd"); System.out.println(jedis.zrange("class", 0, -1));
-				 * //显示class中所有的元素(元素按scope从大到小排列)
-				 * System.out.println(jedis.zrevrange("class", 0, -1));
-				 */
+		// 有序集（个人理解，有序集，就是有序的set集合）
+		/*
+		 * //向class中添加元素，100用于排序 System.out.println(jedis.zadd("class", 100,
+		 * "老马")); System.out.println(jedis.zadd("class", 100, "老马dd"));
+		 * //若"老马"元素存在，则用88替换以前的数据 jedis.zadd("class", 88, "老马");
+		 * //返回"老马"元素的scope值 System.out.println(jedis.zscore("class","老马"));
+		 * System.out.println(jedis.zadd("class", 12, "老张"));
+		 * //显示class中所有的元素(元素按scope从小到大排列)
+		 * System.out.println(jedis.zrange("class", 0, -1)); //返回class中元素的个数
+		 * System.out.println(jedis.zcard("class")); jedis.zrem("class",
+		 * "老马dd"); System.out.println(jedis.zrange("class", 0, -1));
+		 * //显示class中所有的元素(元素按scope从大到小排列)
+		 * System.out.println(jedis.zrevrange("class", 0, -1));
+		 */
 
 	}
 
